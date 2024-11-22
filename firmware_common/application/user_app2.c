@@ -141,6 +141,8 @@ State Machine Function Definitions
 static void UserApp2SM_Idle(void)
 {
     
+  for(u32 i = 0; i < 50000; i++);
+
 } /* end UserApp2SM_Idle() */
      
 
